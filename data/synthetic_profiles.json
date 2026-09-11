@@ -1,0 +1,5 @@
+[
+ {"profile_id":"VPN-REMOTE-01","name":"Synthetic Workforce IKEv2","protocol":"ikev2","mfa":true,"certificate_auth":true,"legacy_auth":false,"split_tunnel":true,"dns_protection":true,"device_posture":true,"logging":true,"admin_exposed":false,"encryption":"AES-256-GCM","owner":"Network Security"},
+ {"profile_id":"VPN-LEGACY-01","name":"Synthetic Legacy SSL VPN","protocol":"ssl-vpn","mfa":false,"certificate_auth":false,"legacy_auth":true,"split_tunnel":true,"dns_protection":false,"device_posture":false,"logging":false,"admin_exposed":true,"encryption":"3DES","owner":"Legacy Infrastructure"},
+ {"profile_id":"VPN-PARTNER-01","name":"Synthetic Partner OpenVPN","protocol":"openvpn","mfa":true,"certificate_auth":true,"legacy_auth":false,"split_tunnel":false,"dns_protection":true,"device_posture":false,"logging":true,"admin_exposed":false,"encryption":"AES-256-GCM","owner":"Third-Party Access"}
+]
